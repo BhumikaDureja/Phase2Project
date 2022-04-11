@@ -1,0 +1,5 @@
+stepDefs\TestRunner.class
+com\simplilearn\Phase2Project\AppTest.class
+stepDefs\BaseClass.class
+stepDefs\LoginSteps.class
+stepDefs\ProductSteps.class

@@ -1,0 +1,550 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the SwagLab application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6321762800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T12:34:28.915Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3187057900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate the successful Login",
+        "description": "",
+        "id": "this-feauture-would-be-used-to-design-the-login-page-of-the-swaglab-application;validate-the-successful-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 54077700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 114527300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76760100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123256000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4492400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should have landed on the Product page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the SwagLab application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6834189500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T12:34:38.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1531109300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate the successful Login",
+        "description": "",
+        "id": "this-feauture-would-be-used-to-design-the-login-page-of-the-swaglab-application;validate-the-successful-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 56882500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98185500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter username \"locked_out_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76104900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67167700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3050700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should have landed on the Product page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the SwagLab application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6799120000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T12:34:47.548Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1527717900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Validate the Negative Login",
+        "description": "",
+        "id": "this-feauture-would-be-used-to-design-the-login-page-of-the-swaglab-application;validate-the-negative-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 51829700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92929800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter username \"abc@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70940500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"pqr@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pqr@1234\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72749000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28711000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should get error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginSteps.i_should_get_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feauture would be used to design the Login page of the SwagLab application",
+    "description": "",
+    "id": "this-feauture-would-be-used-to-design-the-login-page-of-the-swaglab-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@F_Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the SwagLab application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6754606400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89818500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80916400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112653600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2986600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should have landed on the Product page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T12:34:56.232Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1514058400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate the price of the product",
+        "description": "",
+        "id": "this-feauture-would-be-used-to-validate-the-prices-of-the-product-on-the-swaglab-application;validate-the-price-of-the-product",
+        "after": [
+          {
+            "result": {
+              "duration": 55231700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71482200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Product price should be as per below table",
+            "match": {
+              "location": "ProductSteps.product_price_should_be_as_per_below_table(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack",
+                  "$29.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt",
+                  "$49.99"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feauture would be used to validate the prices of the product on the SwagLab application",
+    "description": "",
+    "id": "this-feauture-would-be-used-to-validate-the-prices-of-the-product-on-the-swaglab-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Products.feature",
+    "tags": []
+  }
+]
